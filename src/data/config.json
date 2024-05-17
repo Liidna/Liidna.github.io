@@ -1,0 +1,34 @@
+{
+  "job": "Frontend Developer",
+  "name": "John Doe",
+  "desc": "The traveler of this path, a web designer in Turkey.",
+  "aboutDesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "email": "john.doe@example.com",
+  "status": "on",
+  "hireMeLink": "https://twitter.com/iamkaanayyildiz",
+  "projects": [
+    {
+      "project-image-url": "https://github.com/kaanayyildiz/benfolio/assets/39806458/9d826c30-0135-4620-8e0f-bc3460848e5e",
+      "project-name": "Benfolio",
+      "project-desc": "React + Tailwind Portfolio"
+    }
+  ],
+  "social": [
+    {
+      "icon": "FaXTwitter",
+      "link": "https://x.com"
+    },
+    {
+      "icon": "FaInstagram",
+      "link": "https://instagram.com"
+    },
+    {
+      "icon": "FaGithub",
+      "link": "https://github.com"
+    },
+    {
+      "icon": "FaLinkedinIn",
+      "link": "https://linkedin.com"
+    }
+  ]
+}
