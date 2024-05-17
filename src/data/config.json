@@ -15,20 +15,12 @@
   ],
   "social": [
     {
-      "icon": "FaXTwitter",
-      "link": "https://x.com"
-    },
-    {
       "icon": "FaInstagram",
-      "link": "https://instagram.com"
-    },
-    {
-      "icon": "FaGithub",
-      "link": "https://github.com"
+      "link": "https://instagram.com/lindasticere"
     },
     {
       "icon": "FaLinkedinIn",
-      "link": "https://linkedin.com"
+      "link": "https://linkedin.com/in/linda-sticere"
     }
   ]
 }

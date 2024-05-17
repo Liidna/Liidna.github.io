@@ -9,7 +9,7 @@ function CopyEmailButton() {
   const configData = getConfigData();
 
   const copyToClipboard = () => {
-    const email = configData.email; // Kopyalanacak e-posta adresi
+    const email = configData.email;
     navigator.clipboard.writeText(email)
       .then(() => {
         setButtonText('Nokopēts');
@@ -22,7 +22,7 @@ function CopyEmailButton() {
   return (
     <button
       onClick={copyToClipboard}
-      className="gap-x-1 bg-white focus:ring-2 focus:ring-gray-300 font-medium border rounded-lg border-gray-200 first-letter:rounded-lg text-sm px-1.5 py-1.5 text-center inline-flex items-center mr-2 mb-2"
+      className="gap-x-1 before:ease relative overflow-hidden border border-[#000000] bg-[#050708] text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:before:-translate-x-40 font-medium rounded-lg text-sm px-2 py-2 text-center inline-flex items-center mr-2 mb-2"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +30,7 @@ function CopyEmailButton() {
         viewBox="0 0 24 24"
         strokeWidth="1.5"
         stroke="currentColor"
-        className="w-6 h-6"
+        className="w-5 h-5"
       >
         <path
           strokeLinecap="round"
