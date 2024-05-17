@@ -13,7 +13,7 @@ export default function Profile() {
     <>
       <div className="flex items-center justify-between px-7 py-7">
         <div className="font-semibold text-lg flex items-center gap-x-3">
-          <div className="w-1.5 h-1.5 bg-gray-400 rounded-full"></div>
+          <div className="w-4 h-2 bg-gray-400 rounded-full"></div>
           {configData.job}
         </div>
         <div className={workStatusTextClass}>
