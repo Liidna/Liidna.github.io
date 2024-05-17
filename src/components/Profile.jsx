@@ -5,9 +5,9 @@ import { getConfigData } from "../data/configReader";
 export default function Profile() {
   const configData = getConfigData();
 
-  const workStatusTextClass = configData.status == 'on' ?  "bg-[#d0fadf] text-[#109d5c] rounded-full uppercase px-[0.60rem] py-[0.60rem] md:px-2 md:py-1 font-medium" : "bg-[#ff9d9d] text-[#f74d4d] rounded-full uppercase px-[0.60rem] py-[0.60rem] md:px-2 md:py-1 font-medium"
+  const workStatusTextClass = configData.status == 'on' ?  "bg-[#d0fadf] text-[#109d5c] rounded-full px-[0.60rem] py-[0.60rem] md:px-2 md:py-1 font-medium" : "bg-[#ff9d9d] text-[#f74d4d] rounded-full px-[0.60rem] py-[0.60rem] md:px-2 md:py-1 font-medium"
   const workStatusClass = configData.status == "on" ? "w-1.5 h-1.5 bg-[#109d5c] rounded-full" : "w-1.5 h-1.5 bg-[#f74d4d] rounded-full"
-  const workStatusText = configData.status == "on" ? "avaılable for work" : "busy"
+  const workStatusText = configData.status == "on" ? "Meklēju darbu" : "Nodarbināta"
 
   return (
     <>
@@ -26,7 +26,7 @@ export default function Profile() {
       <div className="px-7 py-7 flex flex-col flex-col-reverse md:flex md:flex-row md:items-center md:justify-between pt-3">
         <div className="flex flex-col gap-y-2">
           <h1 className="text-4xl md:text-4xl font-semibold text-center md:text-justify tracking-tighter">
-            I'm {configData.name}
+            {configData.name}
           </h1>
           <p className="md:w-3/4 text-lg text-gray-500 text-center md:text-justify font-normal tracking-tigh">
             {configData.desc}

@@ -4,7 +4,7 @@ import { getConfigData } from "../data/configReader";
 
 
 function CopyEmailButton() {
-  const [buttonText, setButtonText] = useState("Copy Email");
+  const [buttonText, setButtonText] = useState("Kopēt e-pastu");
   
   const configData = getConfigData();
 
@@ -12,10 +12,10 @@ function CopyEmailButton() {
     const email = configData.email; // Kopyalanacak e-posta adresi
     navigator.clipboard.writeText(email)
       .then(() => {
-        setButtonText('Copied');
+        setButtonText('Nokopēts');
       })
       .catch((err) => {
-        console.error('Copy error:', err);
+        console.error('Kopēšana kļūdaina:', err);
       });
   };
 
