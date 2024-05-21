@@ -3,7 +3,7 @@ import { getConfigData } from "../data/configReader";
 
 export default function Card() {
   const configData = getConfigData();
-  const projects = configData.projects;
+  const types = configData.types;
 
   const [isHovered, setIsHovered] = useState(false);
 
@@ -23,34 +23,10 @@ export default function Card() {
     <>
       <div className="px-2">
         <div className="flex flex-col bg-gray-100 rounded-lg px-5 py-5 ">
-          <div className="flex items-center justify-between mb-5">
-            <div className="font-medium text-lg flex items-center gap-x-2">
-              <div className="w-1.5 h-1.5 bg-gray-400 rounded-full"></div>
-              Projects
-            </div>
-            <button
-              type="button"
-              className="gap-x-2 text-gray-900 bg-white border border-gray-200 hover:border-gray-300 transition-all duration-300 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-3 py-2 text-center inline-flex items-center"
-            >
-              View All
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth="1.5"
-                stroke="currentColor"
-                className="w-3 h-3"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
-                />
-              </svg>
-            </button>
+          <div className="flex items-center justify-between mb-3">
           </div>
           <div className="flex flex-col">
-            {projects.map((project, index) => (
+            {types.map((type, index) => (
               <a
                 key={index}
                 onMouseEnter={handleMouseEnter}
@@ -62,17 +38,17 @@ export default function Card() {
                   <div className="card-image w-16 h-16 rounded-full overflow-hidden">
                     <img
                       className="w-full h-full object-cover"
-                      src={project["project-image-url"]}
+                      src={type["type-image-url"]}
                       alt=""
                     />
                   </div>
                 </div>
                 <div className="flex flex-col justify-center">
                   <h1 className="font-medium text-lg">
-                    {project["project-name"]}
+                    {type["type-name"]}
                   </h1>
                   <p className="text-gray-500 text-md">
-                    {project["project-desc"]}
+                    {type["type-definition"]}
                   </p>
                 </div>
                 <button className="ml-auto hidden md:inline-block">

@@ -7,11 +7,16 @@
   "status": "off",
   "deceptiveDesignIntro": "Maldinošs dizains ir lietotāja saskarnes dizaina izvēle, kas gūst labumu tiešsaistes pakalpojumiem, piespiežot, virzot vai maldinot lietotājus pieņemt lēmumus, kurus, būdami pilnībā informēti un spējīgi izvēlēties alternatīvas, viņi iespējams neizvēlētos.",
   "deceptiveDesignIntro2": "Izpratne par maldinoša dizaina veidiem ir būtiska, lai atpazītu un apkarotu krāpnieciskas prakses digitālajās saskarnēs. Tāpēc, apskatīsim dažādus maldinošo dizainu veidus, sniedzot detalizētākus aprakstus par katru, tā izpausmi, problemātiku un mērķi.",
-  "projects": [
+  "types": [
     {
-      "project-image-url": "https://github.com/kaanayyildiz/benfolio/assets/39806458/9d826c30-0135-4620-8e0f-bc3460848e5e",
-      "project-name": "Benfolio",
-      "project-desc": "React + Tailwind Portfolio"
+      "type-image-url": "https://github.com/kaanayyildiz/benfolio/assets/39806458/9d826c30-0135-4620-8e0f-bc3460848e5e",
+      "type-name": "Novirzīšana",
+      "type-definition": "Mudina lietotāju vērst uzmanību uz citu objektu vai informāciju."
+    },
+    {
+      "type-image-url": "https://github.com/kaanayyildiz/benfolio/assets/39806458/9d826c30-0135-4620-8e0f-bc3460848e5e",
+      "type-name": "Maskētas reklāmas",
+      "type-definition": "React + Tailwind Portfolio"
     }
   ],
   "social": [
