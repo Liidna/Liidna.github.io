@@ -2,7 +2,6 @@
   "job": "Autore",
   "name": "Linda Sticere",
   "desc": "LU Datorikas Fakultātes studente",
-  "aboutDesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
   "email": "lsticere@gmail.com",
   "status": "off",
   "bg":"https://i.postimg.cc/wBC7RJQt/deceptive-Design-Bg.png",
@@ -10,14 +9,52 @@
   "deceptiveDesignIntro2": "Izpratne par maldinoša dizaina veidiem ir būtiska, lai atpazītu un apkarotu krāpnieciskas prakses digitālajās saskarnēs. Tāpēc, apskatīsim dažādus maldinošo dizainu veidus, sniedzot detalizētākus aprakstus par katru, tā izpausmi, problemātiku un mērķi.",
   "types": [
     {
-      "type-image-url": "https://i.postimg.cc/N09cXzdD/misdirection.png",
+      "type-image-url": "https://i.postimg.cc/HnrfFSNn/signpost-2-svgrepo-com.png",
       "type-name": "Novirzīšana",
-      "type-definition": ""
+      "type-definition": "",
+      "type-example": ""
     },
     {
-      "type-image-url": "https://i.postimg.cc/9FMNzq8t/website-ad-svgrepo-com-1.png",
+      "type-image-url": "https://i.postimg.cc/vZvbrKww/widget-5-svgrepo-com.png",
       "type-name": "Maskētas reklāmas",
-      "type-definition": ""
+      "type-definition": "",
+      "type-example": ""
+    },
+    {
+      "type-image-url": "https://i.postimg.cc/1zT0JJDJ/alarm-svgrepo-com.png",
+      "type-name": "Viltus steidzināšana",
+      "type-definition": "",
+      "type-example": ""
+    },
+    {
+      "type-image-url": "https://i.postimg.cc/Y9h2Rxt2/social-Proof.png",
+      "type-name": "Viltus atsauksmes",
+      "type-definition": "",
+      "type-example": ""
+    },
+    {
+      "type-image-url": "https://i.postimg.cc/CxhWgLX9/routing-2-svgrepo-com.png",
+      "type-name": "Uzspiesta darbība",
+      "type-definition": "",
+      "type-example": ""
+    },
+    {
+      "type-image-url": "https://i.postimg.cc/sgPDnXS8/letter-unread-svgrepo-com-1.png",
+      "type-name": "Uzbāšanās",
+      "type-definition": "",
+      "type-example": ""
+    },
+    {
+      "type-image-url": "https://i.postimg.cc/44FKtmbQ/shield-cross-svgrepo-com.png",
+      "type-name": "Traucēklis",
+      "type-definition": "",
+      "type-example": ""
+    },
+    {
+      "type-image-url": "https://i.postimg.cc/br1RGkDL/cart-plus-svgrepo-com.png",
+      "type-name": "Iemānīšana",
+      "type-definition": "",
+      "type-example": ""
     }
   ],
   "social": [

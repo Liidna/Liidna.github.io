@@ -1,4 +1,4 @@
-import Projects from "../components/Projects";
+import Projects from "../components/Types";
 import { getConfigData } from "../data/configReader";
 
 import { FaAngleDown } from "react-icons/fa6";
@@ -29,9 +29,9 @@ export default function Home() {
 
 			<div>
 				<a id="types">
-        <div className="flex flex-col items-center justify-center py-8">
-					<h2 className="text-2xl font-semibold"> Maldinoša dizaina veidi</h2>
-				</div>
+					<div className="flex flex-col items-center justify-center py-8">
+						<h2 className="text-2xl font-semibold"> Maldinoša dizaina veidi</h2>
+					</div>
 				</a>
 				<Projects />
 				<Projects />

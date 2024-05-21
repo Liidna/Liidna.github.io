@@ -1,6 +1,6 @@
 import "./App.css";
 import Profile from "./components/Profile";
-import Projects from "./components/Projects";
+import Types from "./components/Types";
 import Navbar from "./components/Navbar";
 import { getConfigData } from "./data/configReader";
 import Social from "./components/Social";
