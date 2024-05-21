@@ -5,18 +5,19 @@
   "aboutDesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
   "email": "lsticere@gmail.com",
   "status": "off",
+  "bg":"https://i.postimg.cc/wBC7RJQt/deceptive-Design-Bg.png",
   "deceptiveDesignIntro": "Maldinošs dizains ir lietotāja saskarnes dizaina izvēle, kas gūst labumu tiešsaistes pakalpojumiem, piespiežot, virzot vai maldinot lietotājus pieņemt lēmumus, kurus, būdami pilnībā informēti un spējīgi izvēlēties alternatīvas, viņi iespējams neizvēlētos.",
   "deceptiveDesignIntro2": "Izpratne par maldinoša dizaina veidiem ir būtiska, lai atpazītu un apkarotu krāpnieciskas prakses digitālajās saskarnēs. Tāpēc, apskatīsim dažādus maldinošo dizainu veidus, sniedzot detalizētākus aprakstus par katru, tā izpausmi, problemātiku un mērķi.",
   "types": [
     {
-      "type-image-url": "https://github.com/Liidna/test2/blob/eefae3e8b5cc1fd79fb6288be75f143644c94c37/src/assets/types/misdirection.svg",
+      "type-image-url": "https://i.postimg.cc/N09cXzdD/misdirection.png",
       "type-name": "Novirzīšana",
-      "type-definition": "Mudina lietotāju vērst uzmanību uz citu objektu vai informāciju."
+      "type-definition": ""
     },
     {
-      "type-image-url": "https://github.com/kaanayyildiz/benfolio/assets/39806458/9d826c30-0135-4620-8e0f-bc3460848e5e",
+      "type-image-url": "https://i.postimg.cc/9FMNzq8t/website-ad-svgrepo-com-1.png",
       "type-name": "Maskētas reklāmas",
-      "type-definition": "React + Tailwind Portfolio"
+      "type-definition": ""
     }
   ],
   "social": [

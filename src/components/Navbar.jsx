@@ -14,8 +14,8 @@ export default function Navbar() {
                 to="/"
                 className={({ isActive }) =>
                   isActive
-                    ? "bg-white rounded-full p-2 transition-all duration-300"
-                    : "opacity-50 p-2 hover:bg-white rounded-full transition-all duration-300 hover:opacity-100"
+                    ? "bg-gray-200 rounded-xl p-2 transition-all duration-300"
+                    : "opacity-50 p-2 hover:bg-gray-200 rounded-xl transition-all duration-300 hover:opacity-100"
                 }
               >
                 <svg
@@ -38,8 +38,8 @@ export default function Navbar() {
                 to="/about"
                 className={({ isActive }) =>
                   isActive
-                    ? "bg-white rounded-full p-2 transition-all duration-300"
-                    : "opacity-50 p-2 hover:bg-white rounded-full transition-all duration-300 hover:opacity-100"
+                    ? "bg-gray-200 rounded-xl p-2 transition-all duration-300"
+                    : "opacity-50 p-2 hover:bg-gray-200 rounded-xl transition-all duration-300 hover:opacity-100"
                 }
               >
                 <svg
@@ -62,8 +62,8 @@ export default function Navbar() {
                 to="/projects"
                 className={({ isActive }) =>
                   isActive
-                    ? "bg-white rounded-full p-2 transition-all duration-300"
-                    : "opacity-50 p-2 hover:bg-white rounded-full transition-all duration-300 hover:opacity-100"
+                    ? "bg-gray-200 rounded-xl p-2 transition-all duration-300"
+                    : "opacity-50 p-2 hover:bg-gray-200 rounded-xl transition-all duration-300 hover:opacity-100"
                 }
               >
                 <svg
@@ -86,8 +86,8 @@ export default function Navbar() {
                 to="/products"
                 className={({ isActive }) =>
                   isActive
-                    ? "bg-white rounded-full p-2 transition-all duration-300"
-                    : "opacity-50 p-2 hover:bg-white rounded-full transition-all duration-300 hover:opacity-100"
+                    ? "bg-gray-200 rounded-xl p-2 transition-all duration-300"
+                    : "opacity-50 p-2 hover:bg-gray-200 rounded-xl transition-all duration-300 hover:opacity-100"
                 }
               >
                 <svg
