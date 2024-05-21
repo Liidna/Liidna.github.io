@@ -38,7 +38,7 @@ export default function Home() {
 				<a id="types">
 					<div className="flex items-center justify-center py-8 gap-x-3">
 						<div className="w-2 h-2 bg-[#9d105e] rounded-full"></div>
-						<h1 className="text-3xl font-semibold"> Maldinoša Dizaina veidi</h1>
+						<h2 className="text-3xl font-semibold"> Maldinoša Dizaina veidi</h2>
 						<div className="w-2 h-2 bg-[#9d105e] rounded-full"></div>
 					</div>
 				</a>

@@ -11,13 +11,16 @@
     {
       "type-image-url": "https://i.postimg.cc/HnrfFSNn/signpost-2-svgrepo-com.png",
       "type-name": "Novirzīšana",
-      "type-definition": "",
+      "type-definition": "maldinoša dizaina kontekstā izmanto vizuālos elementus, valodu un emocijas, lai virzītu lietotājus pieņemt vai noraidīt izvēli. Šī metode manipulē ar lietotāja uztveri un lēmumu pieņemšanu, bieži vien slēpjot, novirzot vai nepietiekami uzsverot svarīgu informāciju.",
+      "type-subtypes-intro": "Tā ietver sekojošos veidus: ",
+      "type-subtypes": ["Salīdzināšanas apgrūtināšana", "Kauninoša šantāža", "Vizuālā iejaukšanās", "Pārprotams formulējums", "Priekšizvēle"],
       "type-example": ""
     },
     {
       "type-image-url": "https://i.postimg.cc/vZvbrKww/widget-5-svgrepo-com.png",
       "type-name": "Maskētas reklāmas",
       "type-definition": "",
+      "type-subtypes": "",
       "type-example": ""
     },
     {
