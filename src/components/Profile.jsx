@@ -12,8 +12,8 @@ export default function Profile() {
   return (
     <>
       <div className="flex items-center justify-between px-7 py-7">
-        <div className="font-semibold text-lg flex items-center gap-x-3">
-          <div className="w-4 h-2 bg-gray-400 rounded-full"></div>
+        <div className="font-bold text-lg flex items-center gap-x-3">
+          <div className="w-2 h-2 bg-[#9d105e] rounded-full"></div>
           {configData.job}
         </div>
         <div className={workStatusTextClass}>
@@ -23,7 +23,7 @@ export default function Profile() {
           </div>
         </div>
       </div>
-      <div className="px-7 py-7 flex flex-col flex-col-reverse md:flex md:flex-row md:items-center md:justify-between pt-3">
+      <div className="px-7 py-7 flex flex-col-reverse md:flex md:flex-row md:items-center md:justify-between pt-3">
         <div className="flex flex-col gap-y-2">
           <h1 className="text-4xl md:text-4xl font-semibold text-center md:text-justify tracking-tighter">
             {configData.name}

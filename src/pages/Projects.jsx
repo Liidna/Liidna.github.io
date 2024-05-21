@@ -10,7 +10,7 @@ export default function Home() {
 		<>
 			<div className="text-gray-800">
 				<div className="flex flex-col items-center justify-center py-8">
-					<h1 className="text-3xl font-bold"> Maldinošs Dizains</h1>
+					<h1 className="text-4xl font-bold"> Maldinošs Dizains</h1>
 				</div>
 
 				<div className="text-xl px-7 py-5 flex flex-col text-md font-normal leading-loose">
