@@ -1,14 +1,10 @@
 import "./App.css";
-import Profile from "./components/Profile";
-import Types from "./components/Types";
 import Navbar from "./components/Navbar";
-import { getConfigData } from "./data/configReader";
 import Social from "./components/Social";
 import Footer from "./components/Footer";
 import SiteRoutes from "./routes/SiteRoutes";
 
 function App() {
-	const configData = getConfigData();
 
 	return (
 		<>
