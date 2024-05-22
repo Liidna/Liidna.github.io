@@ -5,7 +5,7 @@ export default function Card() {
 	const configData = getConfigData();
 	const types = configData.types;
 
-	const [isHovered, setIsHovered] = useState(false);
+	const [setIsHovered] = useState(false);
 	const [expandedIndices, setExpandedIndices] = useState([]);
 
 	const refs = useRef([]);
@@ -36,9 +36,11 @@ export default function Card() {
 		});
 	}, [expandedIndices]);
 
-	const svgClass = isHovered
-		? "w-6 h-6 text-gray-500 transition delay-150"
-		: "w-6 h-6 text-gray-300";
+	const getSvgClass = (index) => {
+		return  expandedIndices.includes(index)
+			? "w-6 h-6 text-gray-500 transition delay-150 transform rotate-180"
+			: "w-6 h-6 text-gray-300 transition delay-150";
+	};
 
 	return (
 		<div className="px-2">
@@ -70,7 +72,7 @@ export default function Card() {
 									onClick={() => handleToggleExpand(index)}
 								>
 									<svg
-										className={svgClass}
+										className={getSvgClass(index)}
 										xmlns="http://www.w3.org/2000/svg"
 										fill="none"
 										viewBox="0 0 24 24"
