@@ -7,9 +7,9 @@ export default function Test() {
 		<>
 			<div className="text-gray-800">
 				<div className="flex items-center justify-center py-8 gap-x-3">
-					<div className="w-4 h-2 bg-[#9d105e] rounded-full"></div>
+					<div className="w-2 h-2 bg-[#9d105e] rounded-full"></div>
 					<h1 className="text-4xl font-bold">Viktorīna</h1>
-					<div className="w-4 h-2 bg-[#9d105e] rounded-full"></div>
+					<div className="w-2 h-2 bg-[#9d105e] rounded-full"></div>
 				</div>
 
 				<div className="text-xl px-7 py-5 flex flex-col text-md font-normal leading-loose">
