@@ -60,6 +60,18 @@
       "type-example": ""
     }
   ],
+  "testIntro": "Izpildi testu un pārbaudi savas spējas atpazīt maldinošu dizainu!",
+  "testImage":"https://i.postimg.cc/MZrcPfyX/test.png",
+  "testQuestions": [
+    {
+      "icon": "FaInstagram",
+      "link": "https://instagram.com/lindasticere"
+    },
+    {
+      "icon": "FaLinkedinIn",
+      "link": "https://linkedin.com/in/linda-sticere"
+    }
+  ],
   "social": [
     {
       "icon": "FaInstagram",
