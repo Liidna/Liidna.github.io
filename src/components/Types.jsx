@@ -37,7 +37,7 @@ export default function Card() {
 	}, [expandedIndices]);
 
 	const getSvgClass = (index) => {
-		return  expandedIndices.includes(index)
+		return expandedIndices.includes(index)
 			? "w-6 h-6 text-gray-500 transition delay-150 transform rotate-180"
 			: "w-6 h-6 text-gray-300 transition delay-150";
 	};
@@ -52,7 +52,12 @@ export default function Card() {
 							key={index}
 							className="drop-shadow-md card bg-white rounded-lg px-5 py-3 gap-x-3 flex flex-col md:flex-none hover:-translate-y-1 hover:scale-100 duration-300 transition ease-in-out delay-150 hover:shadow-sm border border-gray-200 hover:border-gray-300"
 						>
-							<div className="flex items-center ">
+							<div
+								className="flex items-center cursor-pointer"
+								onMouseEnter={handleMouseEnter}
+								onMouseLeave={handleMouseLeave}
+								onClick={() => handleToggleExpand(index)}
+							>
 								<div className="rounded-full overflow-hidden flex items-center justify-center border hidden md:block">
 									<div className="card-image w-16 h-16 rounded-full">
 										<img
@@ -67,9 +72,6 @@ export default function Card() {
 								</div>
 								<button
 									className="ml-auto hidden md:inline-block"
-									onMouseEnter={handleMouseEnter}
-									onMouseLeave={handleMouseLeave}
-									onClick={() => handleToggleExpand(index)}
 								>
 									<svg
 										className={getSvgClass(index)}
@@ -99,9 +101,11 @@ export default function Card() {
 										{type["type-definition"]}
 									</p>
 									<br />
-									<p>{type["type-subtypes-intro"]}</p>
+									
 									{type["type-subtypes"] &&
 										type["type-subtypes"].length > 0 && (
+											<div>
+												<p>{type["type-name"]} ietver sekojošus veidus:</p>
 											<ul className="list-disc list-inside mt-3">
 												{type["type-subtypes"].map((subtype, subIndex) => (
 													<li
@@ -112,6 +116,7 @@ export default function Card() {
 													</li>
 												))}
 											</ul>
+											</div>
 										)}
 								</div>
 							</div>
