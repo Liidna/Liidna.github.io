@@ -95,6 +95,7 @@ export default function Test() {
 
 	const seeResults = () => {
 		setView("result");
+		window.scrollTo({ top: 0, behavior: "smooth" }); // Scroll to top
 	};
 
 	const restartTest = () => {
@@ -104,8 +105,8 @@ export default function Test() {
 		setSelectedOption(null);
 		setAnswers({});
 		setCorrectAnswers(0);
-		setDisplayedPercentage(0); // Reset displayed percentage
-		setPercentageClass("text-lg"); // Reset class for percentage animation
+		setDisplayedPercentage(0);
+		setPercentageClass("text-lg");
 	};
 
 	const calculatePercentage = () => {
@@ -123,12 +124,12 @@ export default function Test() {
 				} else {
 					clearInterval(interval);
 				}
-			}, 10); // Adjust the speed of the animation here (20ms for faster, increase for slower)
+			}, 10);
 
-			// Animate text size
+			// Teksta izmēra animācija rezultāta skatā
 			setTimeout(() => {
-				setPercentageClass("text-8xl");
-			}, 100); // Add a slight delay to ensure the class change triggers the animation
+				setPercentageClass("md:text-8xl text-6xl");
+			}, 100);
 
 			return () => clearInterval(interval);
 		}
@@ -138,7 +139,7 @@ export default function Test() {
 		if (correctAnswers >= 7) {
 			return (
 				<>
-					<p className="text-xl mb-6 text-center text-gray-700 leading-loose">
+					<p className="md:text-xl text-base mb-6 text-center text-gray-700 leading-loose">
 						Tu spēj atpazīt maldinošu dizainu un veikt informētus un apdomātus
 						lēmumus!
 					</p>
@@ -153,13 +154,13 @@ export default function Test() {
 		} else if (correctAnswers >= 4) {
 			return (
 				<>
-					<p className="text-xl mb-6 text-center text-gray-700 leading-loose">
+					<p className="md:text-xl text-base mb-6 text-center text-gray-700 leading-loose">
 						Tu spēj atpazīt dažus maldinošus dizainus, bet nepieciešamas
 						papildus zināšanas
 					</p>
 					<button
 						href="/"
-						className="gap-x-3 font-bold before:ease relative overflow-hidden border border-[#000000] bg-[#050708] text-white shadow-2xl transition-all before:absolute before:right-6 before:top-0 before:h-32 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-200 hover:before:-translate-x-96 rounded-xl text-xl px-5 py-3 text-center inline-flex items-center mx-1"
+						className="gap-x-3 font-bold before:ease relative overflow-hidden border border-[#000000] bg-[#050708] text-white shadow-2xl transition-all before:absolute before:right-6 before:top-0 before:h-32 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-200 hover:before:-translate-x-96 rounded-xl md:text-xl text-base px-5 py-3 text-center inline-flex items-center mx-1"
 					>
 						<a href="/">Lasīt vairāk par Maldinošo dizainu</a>{" "}
 						<FaPlay size={13} />
@@ -169,7 +170,7 @@ export default function Test() {
 		} else {
 			return (
 				<>
-					<p className="text-xl mb-6 text-center text-gray-700 leading-loose">
+					<p className="md:text-xl text-base mb-6 text-center text-gray-700 leading-loose">
 						Tev sagādā grūtības maldinoša dizaina atpazīšana. Nepieciešama
 						papildus prakse un zināšanas :(
 					</p>
@@ -192,13 +193,13 @@ export default function Test() {
 					<>
 						<div className="flex items-center justify-center text-center py-8 gap-x-2">
 							<div className="w-2 h-2 bg-[#9d105e] rounded-full m-2"></div>
-							<h1 className="text-3xl md:text-4xl font-bold">
+							<h1 className="text-2xl md:text-4xl font-bold">
 								Zināšanu pārbaude
 							</h1>
 							<div className="w-2 h-2 bg-[#9d105e] rounded-full m-2"></div>
 						</div>
 
-						<div className="text-xl px-7 py-5 flex flex-col leading-loose items-center justify-center">
+						<div className="md:text-xl px-7 py-5 flex flex-col leading-loose items-center justify-center">
 							<div className="text-center pb-3">
 								<p>{configData.testIntro}</p>
 							</div>
@@ -230,7 +231,7 @@ export default function Test() {
 								index === currentQuestionIndex && (
 									<div key={index}>
 										<div className="pb-3">
-											<div className="flex flex-row  items-center justify-center pt-1 pb-6 ">
+											<div className="flex flex-row  items-center justify-center pt-1 md:pb-6 pb-3">
 												<button className="md:inline-block ">
 													<svg
 														className="w-6 h-6 text-gray-300 hover:text-gray-600 transition delay-100"
@@ -248,16 +249,16 @@ export default function Test() {
 														/>
 													</svg>
 												</button>
-												<div className="text-sm items-center justify-center text-center flex-grow pr-4">
+												<div className="md:text-sm text-xs items-center justify-center text-center flex-grow pr-4">
 													<p>{`Jautājums ${currentQuestionIndex + 1} no ${
 														configData.questions.length
 													}`}</p>
 												</div>
 											</div>
 										</div>
-										<div className="text-center font-bold text-2xl bg-black text-white  rounded-xl p-8">
+										<div className="text-center font-bold md:text-2xl leading-tight md:leading-loose bg-black text-white rounded-xl md:p-8 p-4">
 											<p>{question.text}</p>
-											<p className="text-sm font-normal text-gray-300 italic pt-1 justify-center">
+											<p className="md:text-sm text-xs font-normal text-gray-300 italic pt-1 justify-center">
 												{configData.testCond}
 											</p>
 										</div>
@@ -272,7 +273,7 @@ export default function Test() {
 												/>
 											</div>
 										)}
-										<div className="flex flex-col gap-4 pt-6 pb-6 text-md">
+										<div className="flex flex-col gap-4 pt-6 pb-3 md:text-lg text-base">
 											{question.options &&
 												Object.entries(question.options).map(([key, value]) => (
 													<button
@@ -292,7 +293,7 @@ export default function Test() {
 																? "bg-blue-500"
 																: "bg-gray-100 border hover:bg-gray-200"
 														}`}
-														disabled={feedback !== null} // Disable buttons after an answer is selected
+														disabled={feedback !== null} // Atspējo pogas kamēr nav sniegta atbilde
 													>
 														{value}
 													</button>
@@ -300,7 +301,7 @@ export default function Test() {
 										</div>
 										<div>
 											{feedback && (
-												<div className="italic border p-4 rounded-md text-lg text-gray-600">
+												<div className="italic border p-4 rounded-md md:text-lg text-sm text-gray-600">
 													<p>{question.explanation}</p>
 												</div>
 											)}
@@ -364,13 +365,13 @@ export default function Test() {
 							backgroundPosition: "center",
 						}}
 					>
-						<div className="flex items-center justify-center py-8 gap-x-3">
+						<div className="flex items-center justify-center md:py-8 py-4 gap-x-3">
 							<div className="w-4 h-2 bg-[#9d105e] rounded-full"></div>
-							<h1 className="text-4xl font-bold "> Rezultāts</h1>
+							<h1 className="md:text-4xl text-3xl font-bold "> Rezultāts</h1>
 							<div className="w-4 h-2 bg-[#9d105e] rounded-full"></div>
 						</div>
 
-						<div className="flex flex-col items-center justify-center pt-20 pb-44 p-8">
+						<div className="flex flex-col items-center justify-center md:pt-20 pt-8 md:pb-44 pb-7 md:p-8">
 							<p
 								className={`transition-all duration-1000 ${percentageClass} font-bold pb-5`}
 							>
@@ -385,7 +386,7 @@ export default function Test() {
 
 						<button
 							onClick={restartTest}
-							className="flex items-center gap-x-4 pr-6 pl-6 transition duration-500 bg-gradient-to-br from-[#9d105e]/80 to-[#9d105e] hover:bg-[#9d105e] text-white font-bold py-2 px-4 rounded-full group"
+							className="flex items-center md:text-xl text-lg gap-x-4 pr-6 pl-6 transition duration-500 bg-gradient-to-br from-[#9d105e]/80 to-[#9d105e] hover:bg-[#9d105e] text-white font-bold py-3 px-4 rounded-full group"
 						>
 							<p>Mēģināt vēlreiz</p>
 							<FaArrowRotateLeft className="group-hover:-rotate-180 transition duration-500" />
