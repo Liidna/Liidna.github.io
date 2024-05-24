@@ -5,6 +5,7 @@
   "email": "lsticere@gmail.com",
   "status": "off",
   "bg":"https://i.postimg.cc/wBC7RJQt/deceptive-Design-Bg.png",
+  "bgCelebration": "https://i.postimg.cc/G2sMZHck/imageedit-2-6884754900.png",
   "deceptiveDesignIntro": "Maldinošs dizains ir lietotāja saskarnes dizaina izvēle, kas gūst labumu tiešsaistes pakalpojumiem, piespiežot, virzot vai maldinot lietotājus pieņemt lēmumus, kurus, būdami pilnībā informēti un spējīgi izvēlēties alternatīvas, viņi iespējams neizvēlētos.",
   "deceptiveDesignIntro2": "Izpratne par maldinoša dizaina veidiem ir būtiska, lai atpazītu un apkarotu krāpnieciskas prakses digitālajās saskarnēs. Tāpēc, apskatīsim dažādus maldinošo dizainu veidus, sniedzot detalizētākus aprakstus par katru, tā izpausmi, problemātiku un mērķi.",
   "types": [
@@ -62,15 +63,122 @@
   ],
   "testIntro": "Izpildi testu un pārbaudi savas spējas atpazīt maldinošu dizainu!",
   "testImage":"https://i.postimg.cc/MZrcPfyX/test.png",
-  "testQuestions": [
+  "testCond": "Atzīmē vienu, piemērotāko atbildi.",
+  "questions": [
     {
-      "icon": "FaInstagram",
-      "link": "https://instagram.com/lindasticere"
+      "text": "Kas ir maldinošs dizains?",
+      "options": {
+        "1v": "Dizaina tehnika, kas uzlabo lietotāja pieredzi",
+        "2v": "Lietotāja saskarnes dizaina paņēmieni, kas manipulē ar lietotāju uzvedību",
+        "3v": "Tehnika, lai samazinātu vietnes ielādes laiku",
+        "4v": "Krāsu paletes izvēle vietnei"
+      },
+      "correctAnswer": "2v",
+      "explanation": "Maldinošs dizains ir lietotāja saskarnes dizaina izvēle, kas gūst labumu tiešsaistes pakalpojumiem, piespiežot, virzot vai maldinot lietotājus pieņemt lēmumus, kurus, būdami pilnībā informēti un spējīgi izvēlēties alternatīvas, viņi iespējams neizvēlētos."
     },
     {
-      "icon": "FaLinkedinIn",
-      "link": "https://linkedin.com/in/linda-sticere"
+      "text": "Kāds ir maldinošā dizaina mērķis?",
+      "options": {
+        "1v": "Palīdzēt lietotājam pieņemt informētus lēmumus",
+        "2v": "Uzlabot vietnes veiktspēju",
+        "3v": "Manipulēt lietotāju uzvedību uzņēmuma guvumam",
+        "4v": "Samazināt izstrādes izmaksas"
+      },
+      "correctAnswer": "3v",
+      "explanation": "Maldinošā dizaina mērķis ir manipulēt lietotāja uzvedību un lēmumu pieņemšanu, izmantojot psiholoģiskās un dizaina tehnikas, lai panāktu noteiktu rezultātu, kas bieži vien ir lietotājam nelabvēlīgs. Šīs tehnikas bieži tiek izmantotas komerciālos nolūkos, piemēram, lai veicinātu pirkumus, palielinātu pakalpojumu izmantošanu vai iegūtu personisko informāciju."
+    },
+    {
+      "text": "Kurš maldinošā dizaina veids ir atspoguļots attēlā?",
+      "qImage": "https://i.postimg.cc/xjHtDnFn/dark-Pattern1.png",
+      "options": {
+        "1v": "Slēptās izmaksas",
+        "2v": "Vizuālā iejaukšanās",
+        "3v": "Priekšizvēle",
+        "4v": "Salīdzināšanas apgrūtināšana"
+      },
+      "correctAnswer": "1v",
+      "explanation": "Slēptās izmaksas ir maldinoša tirdzniecības prakse, kas ietver neuzrādītu vai slikti izklāstītu papildu finansiālo apgrūtinājumu patērētājiem, kas netiek atklāta procesa sākumā."
+    },
+    {
+      "text": "Kas raksturo viltus deficītu?",
+      "options": {
+        "1v": "Produktu trūkums noliktavā",
+        "2v": "Informācija par produktu daudzuma trūkumu",
+        "3v": "Pieprasījuma pieaugums",
+        "4v": "Mākslīgi radīts deficīts, lai mudinātu lietotājus ātri pieņemt lēmumu"
+      },
+      "correctAnswer": "4v",
+      "explanation": "Viltus deficīts ir maldinoša taktika, kas tiek izmantota, lai radītu mākslīgu preces vai pakalpojuma deficīta sajūtu, stimulējot patērētājus steidzīgi veikt pirkumus."
+    },
+    {
+      "text": "Kas ir vizuālā iejaukšanās?",
+      "options": {
+        "1v": "Tīmekļa vietnes dizains, kas padara navigāciju vienkāršāku",
+        "2v": "Dizaina prakse, kas padara darbības sarežģītākas vai novirza lietotāja uzmanību.",
+        "3v": "Tehnika, kas uzlabo vietnes vizuālo kvalitāti",
+        "4v": "Metode, lai palielinātu vietnes vizuālo pievilcību"
+      },
+      "correctAnswer": "2v",
+      "explanation": "Vizuālā iejaukšanās izmanto vizuālo noformējumu, slēpjot, maskējot vai padarot grūtāk pamanāmu informāciju, lai ietekmētu lietotāju izvēles."
+    },
+    {
+      "text": "Kurš maldinošā dizaina veids ir atspoguļots attēlā?",
+      "qImage": "https://i.postimg.cc/13YpVjYv/dark-Pattern2.png",
+      "options": {
+        "1v": "Traucēklis",
+        "2v": "Priekšizvēle",
+        "3v": "Kauninošā šantāža",
+        "4v": "Uzspiesta darbība"
+      },
+      "correctAnswer": "3v",
+      "explanation": "Kauninošā šantāža izmanto valodu un emocijas, izraisot vainas vai kauna sajūtu, lai novirzītu lietotājus no noteiktas izvēles veikšanas, kas parasti izpaužas atteikšanās pogās, formulētas pazemojošā veidā."
+    },
+    {
+      "text": "Kas ir iemānīšana?",
+      "options": {
+        "1v": "Lietotājam nepamanot pievieno papildu produktus vai pakalpojumus, kas nav skaidri norādīti",
+        "2v": "Lietotājam jāveic nevēlama darbība, lai turpinātu izmantot pakalpojumu vai produktu",
+        "3v": "Funkcija, kas uzlabo lietotāja navigāciju vietnē",
+        "4v": "Metode, lai palielinātu produktu redzamību vietnē"
+      },
+      "correctAnswer": "1v",
+      "explanation": "Iemānīša ir maldinoša dizaina prakse, kas ietver būtiskas informācijas slēpšanu vai neuzkrītošu iekļaušanu, lai manipulētu ar patērētāju izvēlēm bez viņu skaidras un informētas piekrišanas. Tā izpaužas 3 veidos: slēptās izmaksas, slēptā abonēšana un preču pievienošana bez skaidras pircēja piekrišanas."
+    },
+    {
+      "text": "Vai attēlā atspoguļotais ir maldinošā dizaina veids?",
+      "qImage": "https://i.postimg.cc/V6pwSMxS/dark-Pattern4.png",
+      "options": {
+        "1v": "Jā",
+        "2v": "Ne vienmēr",
+        "3v": "Nē"
+      },
+      "correctAnswer": "2v",
+      "explanation": "Ne vienmēr šāda veida sniegtā informācija ir maldinoša. Tā ir maldinoša gadījumos, ja sniegtie dati ir safabricēti un neatbilst realitātei, ko var būt grūti pierādīt. 'Just missed it :(' un 'High demand!' var tikt uzskatīti maldinoši, jo nesniedz konkrētu informāciju."
+    },
+    {
+      "text": "Kas ir uzspiesta darbība?",
+      "options": {
+        "1v": "Lietotājam nepamanot pievieno papildu produktus vai pakalpojumus, kas nav skaidri norādīti",
+        "2v": "Dizaina prakse, kas padara darbības sarežģītākas vai novirza lietotāja uzmanību.",
+        "3v": "Opcija, kas ļauj lietotājam izlaist noteiktas darbības",
+        "4v": "Lietotājam jāveic nevēlama darbība, lai turpinātu izmantot pakalpojumu vai produktu"
+      },
+      "correctAnswer": "4v",
+      "explanation": "Uzspiestās darbības maldinošā dizaina kontekstā ir metode, kurā lietotāji tiek piespiesti veikt noteiktas darbības, lai turpinātu izmantot pakalpojumu vai pabeigtu darbību."
+    },
+    {
+      "text": "Kurš maldinošā dizaina veids ir atspoguļots attēlā?",
+      "qImage": "https://i.postimg.cc/dVDCF9tr/dark-Pattern3.png",
+      "options": {
+        "1v": "Uzspiesta darbība",
+        "2v": "Pārprotams formulējums",
+        "3v": "Priekšizvēle",
+        "4v": "Uzbāšanās"
+      },
+      "correctAnswer": "2v",
+      "explanation": "Pārprotama formulējuma maldinošais modelis izmanto lietotāju pieņēmumus un neskaidru valodu, lai maldinātu lietotājus. Tas parasti balstās uz virspusējo lasīšanu, liekot satura fragmentam šķist kā vēlamajam."
     }
+    
   ],
   "social": [
     {
