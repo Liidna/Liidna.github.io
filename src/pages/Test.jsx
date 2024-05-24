@@ -155,11 +155,11 @@ export default function Test() {
 				<>
 					<p className="text-xl mb-6 text-center text-gray-700 leading-loose">
 						Tu spēj atpazīt dažus maldinošus dizainus, bet nepieciešamas
-						papildus zināšanas!
+						papildus zināšanas
 					</p>
 					<button
 						href="/"
-						className="gap-x-3 font-bold before:ease relative overflow-hidden border border-[#000000] bg-[#050708] text-white shadow-2xl transition-all before:absolute before:right-6 before:top-0 before:h-14 before:w-4 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-200 hover:before:-translate-x-96 rounded-xl text-xl px-5 py-3 text-center inline-flex items-center mx-1"
+						className="gap-x-3 font-bold before:ease relative overflow-hidden border border-[#000000] bg-[#050708] text-white shadow-2xl transition-all before:absolute before:right-6 before:top-0 before:h-32 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-200 hover:before:-translate-x-96 rounded-xl text-xl px-5 py-3 text-center inline-flex items-center mx-1"
 					>
 						<a href="/">Lasīt vairāk par Maldinošo dizainu</a>{" "}
 						<FaPlay size={13} />
@@ -175,7 +175,7 @@ export default function Test() {
 					</p>
 					<button
 						href="/"
-						className="gap-x-3 font-bold before:ease relative overflow-hidden border border-[#000000] bg-[#050708] text-white shadow-2xl transition-all before:absolute before:right-6 before:top-0 before:h-14 before:w-4 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-200 hover:before:-translate-x-80 rounded-xl text-xl px-5 py-3 text-center inline-flex items-center mx-1"
+						className="gap-x-3 font-bold before:ease relative overflow-hidden border border-[#000000] bg-[#050708] text-white shadow-2xl transition-all before:absolute before:right-6 before:top-0 before:h-32 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-200 hover:before:-translate-x-80 rounded-xl text-xl px-5 py-3 text-center inline-flex items-center mx-1"
 					>
 						<a href="/">Lasīt vairāk par Maldinošo dizainu</a>{" "}
 						<FaPlay size={13} />
@@ -257,7 +257,7 @@ export default function Test() {
 										</div>
 										<div className="text-center font-bold text-2xl bg-black text-white  rounded-xl p-8">
 											<p>{question.text}</p>
-											<p className="text-sm font-normal text-gray-300 italic pt-1">
+											<p className="text-sm font-normal text-gray-300 italic pt-1 justify-center">
 												{configData.testCond}
 											</p>
 										</div>
@@ -268,7 +268,7 @@ export default function Test() {
 														configData.questions[currentQuestionIndex].qImage
 													}
 													alt=""
-													className="md:max-w-md drop-shadow-lg rounded-2xl"
+													className="drop-shadow-lg rounded-2xl"
 												/>
 											</div>
 										)}
