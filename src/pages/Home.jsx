@@ -11,7 +11,7 @@ export default function Home() {
 			<div className="text-gray-800">
 				<div className="flex items-center justify-center py-8 gap-x-3">
 					<div className="w-4 h-2 bg-[#9d105e] rounded-full"></div>
-					<h1 className="text-4xl font-bold "> Maldinošs Dizains</h1>
+					<h1 className="text-2xl md:text-4xl font-bold "> Maldinošs Dizains</h1>
 					<div className="w-4 h-2 bg-[#9d105e] rounded-full"></div>
 				</div>
 				<div>
@@ -20,20 +20,16 @@ export default function Home() {
 						alt=""
 					/>
 				</div>
-				<div className="text-xl px-7 py-10 flex flex-col text-md font-normal leading-loose indent-7">
+				<div className="text-base md:text-xl px-7 pt-10 flex flex-col font-normal md:leading-loose leading-loose indent-7">
 					<p>{configData.deceptiveDesignIntro}</p>
 					<br />
 					<p>{configData.deceptiveDesignIntro2}</p>
-					<br />
-					<div className="flex flex-col items-center justify-center py-32 text-gray-300">
+					<div className="flex flex-col items-center justify-center invisible md:visible md:pt-20 text-gray-300">
 						<a href="#types" className=" hover:text-[#9d105e] transition">
-							<FaAngleDown size={50} />
+							<FaAngleDown size={40} />
 						</a>
 					</div>
-
-					<br />
 				</div>
-				<br />
 			</div>
 			<br id="types" />
 			<br />
@@ -42,7 +38,7 @@ export default function Home() {
 				<a>
 					<div className="flex items-center justify-center py-8 gap-x-3">
 						<div className="w-2 h-2 bg-[#9d105e] rounded-full"></div>
-						<h2 className="text-3xl font-semibold"> Maldinoša Dizaina veidi</h2>
+						<h2 className="text-2xl md:text-4xl font-bold"> Maldinoša Dizaina veidi</h2>
 						<div className="w-2 h-2 bg-[#9d105e] rounded-full"></div>
 					</div>
 				</a>

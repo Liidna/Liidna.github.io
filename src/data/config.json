@@ -14,51 +14,152 @@
       "type-name": "Novirzīšana",
       "type-definition": "maldinoša dizaina kontekstā izmanto vizuālos elementus, valodu un emocijas, lai virzītu lietotājus pieņemt vai noraidīt izvēli. Šī metode manipulē ar lietotāja uztveri un lēmumu pieņemšanu, bieži vien slēpjot, novirzot vai nepietiekami uzsverot svarīgu informāciju.",
       "type-subtypes-intro": "Tā ietver sekojošos veidus: ",
-      "type-subtypes": ["Salīdzināšanas apgrūtināšana", "Kauninoša šantāža", "Vizuālā iejaukšanās", "Pārprotams formulējums", "Priekšizvēle"],
-      "type-example": ""
+      "type-subtypes": [
+        {
+          "subtype-name": "Salīdzināšanas apgrūtināšanas",
+          "subtype-description": "galvenais mērķis ir padarīt produktu vai pakalpojumu salīdzināšanu sarežģītāku patērētājiem, tādējādi ietekmējot viņu lēmumu pieņemšanas procesu.",
+          "subtype-image-url": "https://i.postimg.cc/wMFvKjfx/comparison-Prevention.png",
+          "subtype-image-description": "Alternatīvu Google Workspace abonēšanas plānu apskate ir iespējama tikai pēc piekrišanas piedāvātajam plānam. Pakalpojuma sniedzējs pakļauj lietotāju riskam aizmirst nomainīt plānu vai anulēt esošo abonementu, tādējādi radot situāciju, kurā lietotājs iespējams samaksā par abonementu, kaut arī nevēlējās to izmantot ilgāk par piedāvātajām 14 bezmaksas dienām."
+        },
+        {
+          "subtype-name": "Kauninošajā šantāžā",
+          "subtype-description": "izmanto valodu un emocijas, izraisot vainas vai kauna sajūtu, lai novirzītu lietotājus no noteiktas izvēles veikšanas, kas parasti izpaužas atteikšanās pogās, formulētas pazemojošā veidā.",
+          "subtype-image-url": "https://i.postimg.cc/SshNJMHN/confirmshaming-duo2.png",
+          "subtype-image-description": "Lai gan Duolingo izmanto daudzus inovatīvus mārketinga paņēmienus, ko īpaši novērtē jaunākas paaudzes, šāda veida modeļi tomēr var būt problemātiski. Neskatoties uz šī apgalvojuma iespējamo patiesumu vai rezultativitāti, tas var izraisīt lietotājā vainas un kauna sajūtu, ja izvēlas pavadīt laiku sociālajos medijos, vai pavadot to citādi, nevis apgūstot valodas iekš Duolingo."
+        },
+        {
+          "subtype-name": "Vizuālajā iejaukšanās",
+          "subtype-description": "izmanto vizuālo noformējumu, slēpjot, maskējot vai padarot grūtāk pamanāmu informāciju, lai ietekmētu lietotāju izvēles.",
+          "subtype-image-url": "https://i.postimg.cc/Wp9TPCp4/visual-Interference-bolt.jpg",
+          "subtype-image-description": "Bolt atteikšanās no reklāmu saņemšanas e-pasta skatā zemāk redzama poga ar uzrakstu 'Nē, es vēlos palikt!', kas izcelta izteiktākā krāsā un lielākiem burtiem, padarot to par vizuāli dominējošāku elementu, kamēr reālā atteikšanās opcija ir pasniegta mazāk uzkrītošā veidā."
+        },
+        {
+          "subtype-name": "Pārprotamā formulējuma",
+          "subtype-description": "maldinošais modelis izmanto lietotāju pieņēmumus un neskaidru valodu, lai maldinātu un apkrāptu lietotājus.",
+          "subtype-image-url": "https://i.postimg.cc/Cx8gkKGZ/trick-Wording.png",
+          "subtype-image-description": "Teksts apgalvo, ka, ja lietotājs 'nevēlas saņemt' jaunumus un piedāvājumus, tad jāatzīmē norādītā izvēles rūtiņa. Parasti šādas izvēles rūtiņas tiek izmantotas, lai lietotāji varētu apstiprināt savu piekrišanu saņemt e-pastus, taču šajā gadījumā ir pretēji — atzīmējot rūtiņu, lietotājs tiek atrunāts no saziņas."
+        },
+        {
+          "subtype-name": "Priekšizvēle",
+          "subtype-description": "maldinošā dizaina kontekstā ir taktika, kurā uzņēmumi sākotnēji izvēlas noteiktas opcijas lietotāju vietā, bieži vien mudinot viņus pieņemt izvēles, kas ir izdevīgas pakalpojuma sniedzējam, nevis patērētājam.",
+          "subtype-image-url": "https://i.postimg.cc/9fjjpjbL/preselection-amazon.jpg",
+          "subtype-image-description": "Skatā redzama opcija 'Aizvietot ar tādu pašu produktu' ir izcelta kā noklusējuma izvēle, kurai pievienots papildu skaidrojums un izteikta piekrišanas prasība nosūtīt atpakaļ oriģinālo preci. Zemāk redzamās opcijas, kas ļauj izvēlēties atmaksāt uz Amazon kontu vai oriģinālo maksājumu veidu (piemēram, 'American Express ending in 1003'), ir mazāk uzsvertas un vizuāli prezentētas mazāk manāmā veidā. "
+        }
+      ]
     },
     {
       "type-image-url": "https://i.postimg.cc/vZvbrKww/widget-5-svgrepo-com.png",
       "type-name": "Maskētas reklāmas",
-      "type-definition": "",
-      "type-subtypes": "",
-      "type-example": ""
+      "type-definition": "ir maldinoša dizaina veids, kurā reklāmas saturs tiek pasniegts tā, lai tas izskatītos pēc neatkarīga vai redakcionāla satura, tādējādi maldinot lietotājus par reklāmas patieso dabu.",
+      "type-subtypes-intro": "Šādas reklāmas var būt iekļautas ziņu rakstos, sociālo mediju ierakstos, produktu pārskatos vai pat lietotāju saskarņu elementu veidā, kas liek lietotājiem uzskatīt, ka viņi saņem objektīvu informāciju, nevis komerciālu ziņojumu.",
+      "type-subtypes": [],
+      "type-example": "https://i.postimg.cc/TPJdZPHy/disguised-Ad-softpedia.png",
+      "type-example-description": "Reklāma, kas atrodas lapas centrā, ir aprīkota ar pogu 'Lejupielādēt', kas vizuāli atgādina lejupielādes pogu programmatūrai. Šāds izvietojums var viegli mulsināt lietotājus, liekot viņiem domāt, ka viņi klikšķina uz pareizās lejupielādes saites. Šī nejaušā klikšķa rezultātā lietotāji tiek novirzīti uz citām vietnēm, kas var piedāvāt citus produktus vai pakalpojumus, vai sliktākajā gadījumā var pat kļūt par vīrusu vai mērķtiecīgas krāpšanas upuri."
+
     },
     {
       "type-image-url": "https://i.postimg.cc/1zT0JJDJ/alarm-svgrepo-com.png",
       "type-name": "Viltus steidzināšana",
-      "type-definition": "",
-      "type-example": ""
+      "type-definition": "ir taktika, kas izmanto psiholoģiskus stimulus, lai radītu mākslīgu nepieciešamību patērētājiem steidzami veikt pirkumu, izmantojot ne reālu spiedienu saistībā ar laiku vai pieejamību.",
+      "type-subtypes-intro": "Tā ietver sekojošos veidus: ",
+      "type-subtypes": [
+        {
+          "subtype-name": "Viltus deficīts",
+          "subtype-description": "tiek izmantots, lai radītu mākslīgu preces vai pakalpojuma deficīta sajūtu, stimulējot patērētājus steidzīgi veikt pirkumus.",
+          "subtype-image-url": "https://i.postimg.cc/SQvTpF5V/fake-Scarcity-shopify.png",
+          "subtype-image-description": "Shopify e-komercijas vietnes lapā izmantotais dizains parāda maldinošu ierobežotā daudzuma ziņojumu, kas paziņo, ka krājumā ir palikušas tikai trīs vienības un šodien ir pārdoti 12 produkti. Tiek radīta mākslīga deficīta ilūzija ar trešo pušu pakalpojumu palīdzību, kas ir izstrādāta, lai izraisītu patērētājos steigu un radītu nelielu panikas sajūtu, kas bieži noved pie impulsīva pirkuma."
+        },
+        {
+          "subtype-name": "Viltus laika ierobežojumi",
+          "subtype-description": "izmanto mākslīgi radītus laika ierobežojumus, lai mudinātu patērētājus veikt pirkumu steigā.",
+          "subtype-image-url": "https://i.postimg.cc/W4vYfGKv/udemy.png",
+          "subtype-image-description": "Udemy izpārdošanas paziņojums ir paredzēts, lai veicinātu lietotājus steidzīgi reģistrēties kursiem, radot iespaidu, ka pēc šī laika piedāvājums vairs nebūs pieejams vai būs mazāk izdevīgs. Arī pēc laika ierobežojuma beigām, šāds piedāvājums bija spēkā."
+        }
+      ]
     },
     {
       "type-image-url": "https://i.postimg.cc/Y9h2Rxt2/social-Proof.png",
       "type-name": "Viltus atsauksmes",
-      "type-definition": "",
-      "type-example": ""
+      "type-definition": "izmanto neautentiskas atsauksmes, lai mākslīgi uzlabotu produkta vai pakalpojuma tēlu.",
+      "type-subtypes-intro": "",
+      "type-subtypes": [],
+      "type-example": "https://i.postimg.cc/rmbPjB2h/fake-Social-Proof-amazon1.png",
+      "type-example-description": "Amazon produkta iespējamas viltus atsauksmes. Produkts saņēmis pārsvarā piecu zvaigžņu atsauksmes, kas rada iespaidu par augstu klientu apmierinātību. Tomēr tuvākā izpēte var atklāt pazīmes, kas norāda uz potenciāli viltotu atsauksmju kampaņu - atsauksmju sadalījums (99% ir piecu zvaigžņu atsauces) un to saturiskā kvalitāte.",
+      "type-markers": [
+        "Ļoti augsts piecu zvaigžņu atsauksmju īpatsvars",
+        "Atsauksmju satura trūkums un vispārīgi slavinoši komentāri",
+        "Vispārīgi atsauksmju nosaukumi",
+        "Konkurentu pieminēšana un salīdzināšana",
+        "Līdzīga formulējuma lietošana dažādās atsauksmēs",
+        "Slikta gramatika un pareizrakstības kļūdas",
+        "Vairāku atsauksmju publicēšana konkrētos datumos"
+      ]
     },
     {
       "type-image-url": "https://i.postimg.cc/CxhWgLX9/routing-2-svgrepo-com.png",
       "type-name": "Uzspiesta darbība",
-      "type-definition": "",
-      "type-example": ""
+      "type-definition": " ir metode, kurā lietotāji tiek piespiesti veikt noteiktas darbības, lai turpinātu izmantot pakalpojumu vai pabeigtu darbību.",
+      "type-subtypes-intro": "",
+      "type-subtypes": [],
+      "type-example": "https://i.postimg.cc/259cjsyz/realreal.png",
+      "type-example-description": "TheRealReal piespiež potenciālos klientus reģistrēties un pieteikties, pirms tiek dota iespēja apskatīt produkta klāstu.",
+      "type-markers": [
+        "Nepieciešama profila veidošana",
+        "Nepieciešamība piekrist noteikumiem"
+      ]
     },
     {
       "type-image-url": "https://i.postimg.cc/sgPDnXS8/letter-unread-svgrepo-com-1.png",
       "type-name": "Uzbāšanās",
-      "type-definition": "",
-      "type-example": ""
+      "type-definition": "izmanto atkārtotus aicinājumus vai paziņojumus, lai piespiestu lietotāju veikt darbības, kas var nebūt viņu primārās intereses vai vajadzības.",
+      "type-subtypes-intro": "",
+      "type-subtypes": [],
+      "type-example": "https://i.postimg.cc/y8Vvm1S1/nagging-ig.png",
+      "type-example-description": "Instagram uznirstošajā logā lietotājs tiek mudināts novērtēt lietotni iekš App Store, veicot salīdzinoši neitrālu pieprasījumu par lietotāja pieredzi. Šis logs piedāvā lietotājam izvēlēties atstāt novērtējumu, taču vienīgā alternatīva, kas tiek piedāvāta, ir pogas 'Ne tagad' izmantošana un katru reizi atverot lietotni, šis uznirstošais logs parādās, kamēr lietotājs nav iesniedzis novērtējumu.",
+      "type-markers": [
+        "Atkārtoti uznirstošie logi un brīdinājumi",
+        "Bieži atgādinājuma e-pasti",
+        "Atkārtoti un bieži paziņojumi"
+      ]
     },
     {
       "type-image-url": "https://i.postimg.cc/44FKtmbQ/shield-cross-svgrepo-com.png",
       "type-name": "Traucēklis",
-      "type-definition": "",
-      "type-example": ""
+      "type-definition": "ir maldinošā dizaina taktika, kurā lietotāja darbības tiek apgrūtinātas ar mērķi novērst viņus no viegli pieejamas vai izdevīgas darbības, mudinot izvēlēties alternatīvu, kas ir izdevīgāka uzņēmumam.",
+      "type-subtypes-intro": "",
+      "type-subtypes": [],
+      "type-example": "https://i.postimg.cc/XqbwnLfj/obstruction-newyorktimes.png",
+      "type-example-description": "The New York Times apgrūtina abonementa atcelšanu, kas patērētājiem rada papildus šķēršļus, salīdzinot ar abonēšanas procesa vienkāršību. Pastāv vairāki atcelšanas soļi un nenoteiktība.",
+      "type-markers": [
+        "Slēptas atteikuma opcijas",
+        "Apgrūtināta funkciju atslēgšana"
+      ]
     },
     {
       "type-image-url": "https://i.postimg.cc/br1RGkDL/cart-plus-svgrepo-com.png",
       "type-name": "Iemānīšana",
-      "type-definition": "",
-      "type-example": ""
+      "type-definition": " ietver būtiskas informācijas slēpšanu vai neuzkrītošu iekļaušanu, lai manipulētu ar patērētāju izvēlēm bez viņu skaidras un informētas piekrišanas.",
+      "type-subtypes-intro": "Tā ietver sekojošos veidus:",
+      "type-subtypes": [
+        {
+          "subtype-name": "Slēptās izmaksas",
+          "subtype-description": "ietver neuzrādītu vai slikti izklāstītu papildu finansiālo apgrūtinājumu patērētājiem, kas netiek atklātas procesa sākumā.",
+          "subtype-image-url": "https://i.postimg.cc/zBjfRkmX/hidden-Costs-airbnb.jpg",
+          "subtype-image-description": "Airbnb rezervācijas laikā slēptās izmaksas tiek izmantotas kā maldinoša dizaina prakse, kur patērētāji sākotnēji redz tikai pamatcenu par naktsmītni ($105.23), kas šķiet pievilcīga un izmaksu ziņā izdevīga. Tomēr, tikai tuvojoties pirkuma apstiprināšanai, lietotājam tiek atklātas vairākas papildu izmaksas: tīrīšanas maksa ($107.38), apkalpošanas maksa ($30.02) un apmešanās nodokļi un nodevas ($23.39). Šīs papildus izmaksas ievērojami palielina kopējo summu līdz $266.02, kas ir vairāk nekā divkārši lielāka nekā sākotnēji norādītā cena.."
+        },
+        {
+          "subtype-name": "Slēptā abonēšana",
+          "subtype-description": "ietver patērētāju neinformēšanu vai maldināšanu par automātiski atjaunojamiem abonementiem un periodiskiem maksājumiem.",
+          "subtype-image-url": "https://i.postimg.cc/TPjdZc3q/hidden-Subscription-figma.png",
+          "subtype-image-description": "Figma piedāvā iespēju izvēlēties, vai cita persona 'var skatīt' vai 'var rediģēt' kopīgoto projektu. Lietotājiem tiek piedāvātas šīs opcijas, taču nav skaidri norādīts, ka izvēloties 'var rediģēt' opciju, tas automātiski tiek saistīts ar papildu maksājumiem."
+        },
+        {
+          "subtype-name": "Preču pievienošana",
+          "subtype-description": "iepirkuma grozam ir maldinošā dizaina taktikas forma, kurā uzņēmumi automātiski pievieno papildu produktus vai pakalpojumus patērētāju iepirkuma grozam bez viņu skaidras piekrišanas.",
+          "subtype-image-url": "https://i.postimg.cc/R0m9QnL3/sneaking-sportsdirect.png",
+          "subtype-image-description": "SportsDirect.com klientam iepirkumu grozā automātiski un bez skaidras piekrišanas ir pievienots žurnāls un krūze."
+        }
+      ]
     }
   ],
   "testIntro": "Izpildi testu un pārbaudi savas spējas atpazīt maldinošu dizainu!",
