@@ -210,6 +210,12 @@ export default function Test() {
 									alt=""
 									className="md:max-w-sm"
 								/>
+								<a
+									href="https://www.freepik.com/premium-vector/creating-new-idea-concept_20561020.htm"
+									className="flex text-xs -mt-4 items-center justify-center text-gray-300 font-light"
+								>
+									freepik.com | rudzhan
+								</a>
 							</div>
 							<div className="pt-6 pb-6">
 								<button
@@ -263,7 +269,7 @@ export default function Test() {
 											</p>
 										</div>
 										{configData.questions[currentQuestionIndex].qImage && (
-											<div className="pt-6 pb-4">
+											<div className="pt-6 pb-1">
 												<img
 													src={
 														configData.questions[currentQuestionIndex].qImage
@@ -271,6 +277,18 @@ export default function Test() {
 													alt=""
 													className="drop-shadow-lg rounded-2xl"
 												/>
+												<a
+													className="flex text-xs pt-1 items-center justify-center text-gray-300 font-light"
+													href={
+														configData.questions[currentQuestionIndex]
+															.qImageSourceUrl
+													}
+												>
+													{
+														configData.questions[currentQuestionIndex]
+															.qImageSource
+													}
+												</a>
 											</div>
 										)}
 										<div className="flex flex-col gap-4 pt-6 pb-3 md:text-lg text-base">
